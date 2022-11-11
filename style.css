@@ -65,6 +65,10 @@ img {
     font-size: 18px;
 }
 
+.main-article__heading {
+    margin-bottom: 7px;
+}
+
 .site-footer {
     width: 94%;
     justify-content: start;
