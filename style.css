@@ -58,7 +58,10 @@ img {
 
 .main__about-project {
     width: 300px;
-    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     font-size: 18px;
 }
 
