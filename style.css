@@ -40,16 +40,13 @@ img {
 .site-body {
     display: flex;
     flex-direction: column;
-    /* padding: 1% 5%; */
     position: relative;
 }
 
 .site-header {
-    width: 100vw;
     display: flex;
     justify-content: center;
     font-weight: 700;
-    padding: 10px 0;
     background-color: #F6EBDA;
 }
 
