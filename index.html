@@ -5,26 +5,207 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./style.css">
+
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
         <title>Project Onix</title>
     </head>
     <body class="site-body">
         <header class="site-header">
-            <h1>Project Onix</h1>
+            <div class="container container-header_hero">
+                <h2 class="site-logo">Project Onix</h2>
+                <nav class="header-nav">
+                    <a class="header-nav__link" href="">About us</a>
+                    <a class="header-nav__link" href="">Our product</a>
+                    <a class="header-nav__link" href="">Delivery</a>
+                </nav>
+            </div>
         </header>
         <main class="site-main">
-            <article class="main__about-project">
-                <h3 class="main-article__heading">Work will be in progress</h3>
-                <p>This project will be improved by me while I am doing my internship at the Onix Academy.</p>
-            </article>
+            <section class="site-main__hero">
+                <div class="container container-header_hero">
+                    <div class="site-hero">
+                        <h1 class="site-hero__heading">Enjoy your <span>coffee</span> before your activity</h1>
+                        <p class="site-hero__text">Boost your productivity and build your mood with a glass of coffee in the morning</p>
+                        <div>
+                            <button class="site-hero__btn">Order now</button>
+                            <a href="" class="site-hero__linkmenu">More menu</a>
+                        </div>
+                    </div>
+                    <img src="./imgs/img-hero.png" class="hero-img" alt="cup of Cappucino and statistics">
+                </div>
+            </section>
+            <section class="site-main__popular">
+                <div class="container">
+                    <h2 class="section__heading">Popular Now</h2>
+                    <ul class="coffee-list">
+                        <li class="coffee-list__item">
+                            <img class="coffee-li-item__img" src="./imgs/vanillalatte.png" alt="Vanilla Latte">
+                            <div class="coffee-li-item__name-price">   
+                                <h3 class="coffee-li-item__heading">Vanilla Latte</h3>
+                                <p class="coffee-li-item__price">15$</p>
+                            </div>
+                            <div class="coffee-li-item__desc">
+                                <div class="coffee-li-item-desc__rate">
+                                    <p>4.8</p>
+                                    <img class="star-png" src="./imgs/akar-icons_star.png" alt="star">
+                                </div>
+                            </div>
+                        </li>
+                        <li class="coffee-list__item">
+                            <img class="coffee-li-item__img" src="./imgs/espresso.png" alt="Espresso">
+                            <div class="coffee-li-item__name-price">
+                                <h3 class="coffee-li-item__heading">Espresso</h3>
+                                <p class="coffee-li-item__price">12$</p>
+                            </div>
+                            
+                            <div class="coffee-li-item__desc">
+                                <div class="coffee-li-item-desc__rate">
+                                    <p>4.8</p>
+                                    <img class="star-png" src="./imgs/akar-icons_star.png" alt="star">
+                                </div>
+                            </div>
+                        </li>
+                        <li class="coffee-list__item">
+                            <img class="coffee-li-item__img" src="./imgs/hazelnut-latte.png" alt="Hazelnut Latte">
+                            <div class="coffee-li-item__name-price">
+                                <h3 class="coffee-li-item__heading">Hazelnut Latte</h3>
+                                <p class="coffee-li-item__price">13$</p>
+                            </div>
+                            <div class="coffee-li-item__desc">
+                                <div class="coffee-li-item-desc__rate">
+                                    <p>4.8</p>
+                                    <img class="star-png" src="./imgs/akar-icons_star.png" alt="star">
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="about-us-section">
+                <div class="container aboutus-cont">
+                    <img src="./imgs/aboutus.png" class="about-us__pic" alt="coffee picture">
+                    <div class="aboutus__info">
+                        <h2 class="aboutus__heading">About us</h2>
+                        <p class="aboutus__maintxt">We provide quality coffee, and ready to deliver.</p>
+                        <p class="aboutus__desc">
+                            We are a company that makes and distributes delicious drinks. our main product is made with a secret recipe and
+                        available in stores worldwide.
+                        </p>
+                        <button class="aboutus__btn">Get your coffee</button>
+                    </div>
+                </div>
+            </section>
+
+
+
+            <section class="foryou-section">
+                <div class="container">
+                    <h2 class="section__heading">Special menu for You</h2>
+                    <ul class="coffee-list foryou-list">
+                        <li class="coffee-list__item foryou-list__item">
+                            <img class="coffee-li-item__img" src="./imgs/sandwich.png" alt="Sandwich">
+                            <div class="coffee-li-item__name-price">
+                                <h3 class="coffee-li-item__heading">Sandwich</h3>
+                                <p class="coffee-li-item__price">15$</p>
+                            </div>
+                            <div class="coffee-li-item__desc">
+                                <p class="foryou-list-item__desc">bread with meat and vegetables</p>
+                                <div class="coffee-li-item-desc__rate foryou-list__rate">
+                                    <p>4.8</p>
+                                    <img class="star-png" src="./imgs/akar-icons_star.png" alt="star">
+                                </div>
+                            </div>
+                        </li>
+                        <li class="coffee-list__item foryou-list__item">
+                            <img class="coffee-li-item__img" src="./imgs/hotmilk.png" alt="Hot Milk">
+                            <div class="coffee-li-item__name-price">
+                                <h3 class="coffee-li-item__heading">Hot Milk</h3>
+                                <p class="coffee-li-item__price">12$</p>
+                            </div>
+                        
+                            <div class="coffee-li-item__desc">
+                                <p class="foryou-list-item__desc">Hot Milk with less sugar</p>
+                                <div class="coffee-li-item-desc__rate foryou-list__rate">
+                                    <p>4.8</p>
+                                    <img class="star-png" src="./imgs/akar-icons_star.png" alt="star">
+                                </div>
+                            </div>
+                        </li>
+                        <li class="coffee-list__item foryou-list__item">
+                            <img class="coffee-li-item__img" src="./imgs/coffee-icecream.png" alt="Coffe Ice Cream">
+                            <div class="coffee-li-item__name-price">
+                                <h3 class="coffee-li-item__heading">Coffe Ice Cream</h3>
+                                <p class="coffee-li-item__price">13$</p>
+                            </div>
+                            <div class="coffee-li-item__desc">
+                                <p class="foryou-list-item__desc">Coffe with ice cream vanilla</p>
+                                <div class="coffee-li-item-desc__rate foryou-list__rate">
+                                    <p >4.8</p>
+                                    <img class="star-png" src="./imgs/akar-icons_star.png" alt="star">
+                                </div>
+                            </div>
+                        </li>
+                        <li class="coffee-list__item foryou-list__item">
+                            <img class="coffee-li-item__img" src="./imgs/cappucino.png" alt="Cappucino">
+                            <div class="coffee-li-item__name-price">
+                                <h3 class="coffee-li-item__heading">Cappucino</h3>
+                                <p class="coffee-li-item__price">15$</p>
+                            </div>
+                            <div class="coffee-li-item__desc">
+                                <p class="foryou-list-item__desc">Hot Cappucino</p>
+                                <div class="coffee-li-item-desc__rate foryou-list__rate">
+                                    <p>4.8</p>
+                                    <img class="star-png" src="./imgs/akar-icons_star.png" alt="star">
+                                </div>
+                            </div>
+                        </li>
+                        <li class="coffee-list__item foryou-list__item">
+                            <img class="coffee-li-item__img" src="./imgs/moccacino.png" alt="Moccacinno">
+                            <div class="coffee-li-item__name-price">
+                                <h3 class="coffee-li-item__heading">Moccacinno</h3>
+                                <p class="coffee-li-item__price">12$</p>
+                            </div>
+                        
+                            <div class="coffee-li-item__desc">
+                                <p class="foryou-list-item__desc">Hot Moccacino</p>
+                                <div class="coffee-li-item-desc__rate foryou-list__rate">
+                                    <p>4.8</p>
+                                    <img class="star-png" src="./imgs/akar-icons_star.png" alt="star">
+                                </div>
+                            </div>
+                        </li>
+                        <li class="coffee-list__item foryou-list__item">
+                            <img class="coffee-li-item__img" src="./imgs/waffle.png" alt="Waffle Ice Crem">
+                            <div class="coffee-li-item__name-price">
+                                <h3 class="coffee-li-item__heading">Waffle Ice Crem</h3>
+                                <p class="coffee-li-item__price">13$</p>
+                            </div>
+                            <div class="coffee-li-item__desc">
+                                <p class="foryou-list-item__desc">Wafle with Ice cream</p>
+                                <div class="coffee-li-item-desc__rate foryou-list__rate">
+                                    <p>4.8</p>
+                                    <img class="star-png" src="./imgs/akar-icons_star.png" alt="star">
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
             <div></div>
         </main>
         <footer class="site-footer">
-            <span>Panasevich Nikita</span>
-            <span>Design: by me</span>
-            <a href="https://github.com/Akvigi">My GitHub</a>
+            <div class="container footer-container">
+                <div class="footer__contacts ">
+                    <span>Panasevich Nikita</span>
+                    <span>Design: <a href="https://www.figma.com/file/2ScjaVZyykqnDhi1RLtY3B/Cafe-Street---E-Commerce-Landing-Page-(Community)?node-id=6%3A21&t=VWcNxFU7dZw4TJs5-0">Link</a></span>
+                    <a href="https://github.com/Akvigi">My GitHub</a>
+                </div>
+            </div>
         </footer>
     </body>
 </html>
